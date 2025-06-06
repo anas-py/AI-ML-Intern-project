@@ -65,5 +65,32 @@ A **content-based movie recommendation system** that suggests movies similar to 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/movie-recommender-system.git
+   git clone https://github.com/anas-py/AI-ML-Intern-project.git
    cd movie-recommender-system
+2. Install dependencies:
+pip install -r requirements.txt
+3. Run the app:
+streamlit run app.py
+
+🔑 TMDb API Setup
+Go to TMDb and create an account.
+
+Generate an API key.
+
+Add your key in the relevant function inside app.py where API requests are made.
+
+✅ Output
+When a movie is selected from the dropdown, the app displays 5 similar movie recommendations along with their posters.
+
+📚 Future Improvements
+Add collaborative filtering to make it hybrid
+
+Host on Streamlit Cloud or Heroku for public access
+
+Include ratings and reviews
+
+Add search functionality
+
+🙋‍♂️ Author
+Mohd Anas
+M.Sc. AI & ML Student @ Jamia Millia Islamia
